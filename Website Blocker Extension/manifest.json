@@ -1,0 +1,21 @@
+{
+    "manifest_version":2,
+    "name" : "Website Blocker" ,
+    "version": "1.0",
+    "description":"An extension to block websites you don't wish to access",
+    "icons":{
+        "128":"128.png",
+        "48":"48.png",
+        "16":"16.png"
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"16.png"
+    },
+    "background":{
+        "scripts":["eventsage.js"],
+        "persistent":true
+    }
+    ,
+    "permissions":[ "webRequest", "webRequestBlocking","tabs","http://*.google.com/","*://*.youtube.com/*"]
+}
