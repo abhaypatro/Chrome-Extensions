@@ -13,9 +13,9 @@
         "default_icon":"16.png"
     },
     "background":{
-        "scripts":["eventsage.js"],
+        "scripts":["eventspage.js"],
         "persistent":true
     }
     ,
-    "permissions":[ "webRequest", "webRequestBlocking","tabs","http://*.google.com/","*://*.youtube.com/*"]
+    "permissions":["storage","webRequest", "webRequestBlocking","tabs","*://*/*"]
 }
